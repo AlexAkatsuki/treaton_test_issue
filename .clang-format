@@ -1,0 +1,30 @@
+BasedOnStyle: LLVM
+Language: Cpp
+Standard: c++17
+
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+
+ColumnLimit: 80
+BreakBeforeBraces: Attach
+
+# без пробела перед скобками в for/if/while/switch/catch
+SpaceBeforeParens: Never
+
+# короткие if/for/while — без разворота в блок
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+
+IndentCaseLabels: false
+PointerAlignment: Left
+
+# переносы в длинных цепочках <<
+BreakBeforeBinaryOperators: None
+ContinuationIndentWidth: 2
+
+# массивы/аргументы — держать в одной строке, если влезают
+BinPackArguments: true
+BinPackParameters: true
+Cpp11BracedListStyle: true
